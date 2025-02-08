@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Neon Script</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div class="waybar">
+    <button class="menu-btn" onclick="toggleMenu()">☰ Menu</button>
+    <div id="menu-dropdown" class="menu-content">
+      <button class="menu-item" onclick="switchTab('editor-tab')">Editor</button>
+      <button class="menu-item" onclick="switchTab('files-tab')">Files</button>
+    </div>
+  </div>
+  <div id="files-tab" class="tab-content">
+    <div class="file-explorer">
+      <div class="file-controls">
+        <input type="text" id="filename" placeholder="filename.ext">
+        <select id="language-select">
+          <option value="javascript">JavaScript</option>
+          <option value="python">Python</option>
+          <option value="html">HTML</option>
+          <option value="css">CSS</option>
+          <option value="typescript">TypeScript</option>
+        </select>
+        <button onclick="createNewFile()">Create File</button>
+      </div>
+      <div id="file-list"></div>
+    </div>
+  </div>
+  <div id="editor-tab" class="tab-content">
+    <div id="editor"></div>
+    <button id="run-button" onclick="switchTab('output-tab')">Run Code</button>
+  </div>
+  <div id="output-tab" class="tab-content">
+    <div id="output-panel">
+      <div id="code-output"></div>
+    </div>
+  </div>
+  <button id="save-button" onclick="saveCode()">Save Code</button>
+  <script src="script.js"></script>
+</body>
+</html>
