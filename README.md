@@ -12,10 +12,11 @@ Neon Script Has essential Features! Like:
 - Compiling And Running code
 And More...!
 # Upcoming Features:
-The Small Devs team is Consistently Working On More Features! Like:
+The Small Devs team Has Discontinued This Project.The Suggested Features:
 - Saving All Files
 - Importing and Downloading Files
 - More Languages
 - Terminal Tab
 - Ui Rework
 You Can Help Us Get These Featured By Contributing To This Repo!
+
