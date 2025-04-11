@@ -12,7 +12,7 @@ Neon Script Has essential Features! Like:
 - Compiling And Running code
 And More...!
 # Upcoming Features:
-The Small Devs team Has Discontinued This Project.The Suggested Features:
+The Suggested Features:
 - Saving All Files
 - Importing and Downloading Files
 - More Languages
